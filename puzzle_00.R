@@ -1,8 +1,9 @@
-#  Miguel Sherker 09/15/15
-#  Purpose 
-###  Count the number of characters in the words from one to one hundred inclusive
-#  Method
-###  First, account for one through nine.  Next, account for the tens places.  Multiply 
+# Miguel Sheker 09/15/15
+
+# Purpose: Count the number of characters in the words from one to one hundred inclusive
+# Method:  First, account for one through nine.  Next, account for the tens places.  
+#          For each tens place, add the values of one through nine and the tens place itself.
+#          Adjust for the incorrect teens and the value 'one hundred'
 
 
 #value vectors
